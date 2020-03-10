@@ -10,7 +10,7 @@ class bookController extends Controller
 {   
 
     private $objUser;
-    public $objBook;
+    private $objBook;
     
     public function __construct()
     {
@@ -26,9 +26,11 @@ class bookController extends Controller
         //dd($this->objBook->all());
         //return view('index');
 
+        $book = $this->objBook->all();
 
+        return view('index',compact('book'));
 
-        dd($this->objUser->find(1)->book);
+        dd($this->objUser->all());
 
     }
 
