@@ -7,7 +7,7 @@
     <hr>
 
     <div class="text-center">
-    
+
         <button class="btn btn-sucess"></button>
 
     </div>
@@ -52,7 +52,7 @@
 
                         <td>
 
-                            <a href="">
+                            <a href='{{url("page/$books->id")}}'>
 
                                 <button class="btn btn-dark">Visualizar</button>
 

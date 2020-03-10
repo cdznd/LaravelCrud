@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/page','bookController@index');
+Route::resource('/page','bookController');

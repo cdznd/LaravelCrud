@@ -34,6 +34,20 @@ class bookController extends Controller
 
     }
 
+    public function create()
+    {
+
+
+
+    }
+
+    public function show($id)
+    {
+
+        echo $id;
+
+    }
+
 
 
 }
